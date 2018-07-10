@@ -1,0 +1,69 @@
+﻿<html>
+	<head>
+		<title>Apple Inc.</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="container"> 
+			<div id="header">
+				<a href="Mac.html"><img src="PictureHome/Header/Mac.jpg" id="Home" alt="Mac"></a>
+				<a href="iPad.html"><img src="PictureHome/Header/iPad.jpg" id="Home" alt="iPad"></a>
+				<a href="iPhone.html"><img src="PictureHome/Header/iPhone.jpg" id="Home" alt="iPhone"></a>
+				<a href="index.html"><img src="PictureHome/Header/Apple.jpg" id="Home" alt="Apple"></a>
+				<a href="AppleWatch.html"><img src="PictureHome/Header/Watch.jpg" id="Home" alt="Watch"></a>
+				<a href="http://www.apple.com/tv/"><img src="PictureHome/Header/TV.jpg" id="Home" alt="TV"></a>
+				<a href="http://www.apple.com/support/"><img src="PictureHome/Header/Support.jpg" id="Home" alt="Support"></a>
+			</div>
+			<div id="content" class="content">
+				<img src="PictureHome/Content/Appleimg.jpg" id="img1"/>
+				<img src="PictureHome/Content/Macimg.jpg" id="img2"/>
+				<img src="PictureHome/Content/iPadimg.jpg" id="img3"/> 
+				<img src="PictureHome/Content/iPhoneimg.jpg" id="img4"/> 
+				<img src="PictureHome/Content/Watchimg.jpg" id="img5"/> 
+				<img src="PictureHome/Content/TVimg.jpg" id="img6"/> 
+				<img src="PictureHome/Content/Supportimg.jpg" id="img7"/> 
+			</div>
+			<script type="text/javascript" id="img"> 
+				var image_count = 7; 
+				var interval = 4000; //пауза 
+				var time_out = 15; //скорость смены картинки 
+				var i = 7; 
+				var timeout; 
+				var opacity = 100; 
+				function change_image(){ 
+					opacity--; 
+					var j = i + 1; 
+					var current_image = 'img' + i; 
+					if (i == image_count) j = 1; 
+					var next_image = 'img' + j; 
+					document.getElementById(current_image).style.opacity=opacity/100; 
+					document.getElementById(current_image).style.filter='alpha(opacity='+opacity+')'; 
+					document.getElementById(next_image).style.opacity= (100-opacity)/100; 
+					document.getElementById(next_image).style.filter=' alpha(opacity='+(100-opacity)+')'; 
+					timeout = setTimeout("change_image()", time_out); 
+					if (opacity==1){ 
+						opacity = 100; 
+						clearTimeout(timeout); 
+						i++;
+						if (i>image_count) i=1; 
+						timeout = setTimeout("change_image()", interval); 
+					} 
+				} 
+				change_image() 
+			</script> 
+			<div id="footer1">
+				<a href="http://www.apple.com/environment/renewable-resources/"><img src="PictureHome/Footers/Footer1.jpg" id="footer" alt="Campus"></a>
+			</div>
+			<div id="footer2">
+				<a href="http://www.apple.com/ios/"><img src="PictureHome/Footers/Footer2.jpg" id="footer" alt="IOS"></a>
+			</div>
+			<div id="footer3">
+				<a href="http://www.apple.com/retail/"><img src="PictureHome/Footers/Footer3.jpg" id="footer" alt="Store"></a>
+			</div>
+			<div id="footer4">
+				<a href="http://www.apple.com/music/"><img src="PictureHome/Footers/Footer4.jpg" id="footer" alt="Music"></a>
+			</div>
+		</div>
+	</body>
+</html>

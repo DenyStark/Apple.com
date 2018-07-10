@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>iMath</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="Style.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="content" class="grid-gradient">
+			<div id="menu"> 
+				&nbspiMath&nbsp
+			</div>
+			<div id="numeric">
+				<input type="image" id="numeric_picture" src="numeric.png" onclick="add_numetric();" alt="numeric" > 
+			</div>
+			<div id="math">
+				<input type="image" id="math_picture" src="math.png" onclick="add_math();" alt="math" > 
+			</div>
+			<div id="logic">
+				<input type="image" id="logic_picture" src="logic.png" onclick="add_logic();" alt="logic" > 
+			</div>
+			<div id="desktop"> 
+
+			</div>
+		</div>
+		<script> 
+			var p = document.getElementById("menu");
+			var top = 7;
+			function add_numetric(){ 	
+				var div = document.createElement('div'); 
+				div.innerHTML = "<div id='numetric_div'><div id='numeric_x'>["+ top++ +"]</div></div>"; 
+				p.appendChild(div); 
+				document.getElementById('numetric_div').style.filter='alpha(top='+top+')';
+				return false;
+			} 
+			function add_math(){ 
+				var div = document.createElement('div'); 
+				div.innerHTML = "<div id='math_x'></div><div id='math_y'></div><div id='math_math'></div><div id='math_z'></div>"; 
+				p.appendChild(div); 
+			} 
+			function add_logic(){ 
+				var div = document.createElement('div'); 
+				div.innerHTML = "<div id='logic_x'></div><div id='logic_y'></div><div id='logic_true'></div><div id='logic_false'></div><div id='logic_zt'></div><div id='logic_zf'></div>"; 
+				p.appendChild(div); 
+			} 
+		</script>
+	</body>
+</html>

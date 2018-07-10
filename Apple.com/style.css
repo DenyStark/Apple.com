@@ -1,0 +1,113 @@
+body {
+	background: #f3f2f3;
+	color: #000000; 
+	font-family: Trebuchet MS, Arial, Times New Roman;
+	font-size: 12px;
+}
+#container {
+	background: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+#header{
+	background: #41484e;
+	opacity: 0.9;
+	text-align: center;
+	line-height: center;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	width:100%;
+	height:40px;
+}	
+#content {
+	background: #d2d0d2;
+	width: 100%;
+	height: 82.5%;
+}
+#footer1 {
+	background: #838283;
+	float: left;
+	width: 25%;
+	height: 17.5%;
+}
+#footer2 {
+	background: #838283;
+	float: left;
+	width: 25%;
+	height: 17.5%;
+}
+#footer3 {
+	background: #838283;
+	float: left;
+	width: 25%;
+	height: 17.5%;
+}
+#footer4 {
+	background: #838283;
+	float: left;
+	width: 25%;
+	height: 17.5%;
+}
+#Home{
+	width: 4,75%;
+	height: 95%;
+}
+#footer{
+	width: 100%;
+	height: 100%;
+}
+#img1{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+}
+#img2{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img3{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img4{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img5{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img6{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#img7{
+	width: 100%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#clear {
+	clear:both;
+}

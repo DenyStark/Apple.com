@@ -1,0 +1,188 @@
+body {
+	background: #f3f2f3;
+	color: #000000; 
+	font-family: Trebuchet MS, Arial, Times New Roman;
+	font-size: 12px;
+}
+#content {
+	position: fixed;
+	top: -5px;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+}
+#menu {
+	background: #51CBFF;
+	color: #006997; 
+	font-family: Helvetica;
+	src: url(Fonts/HelveticaNeue-Light.ttf);
+	font-size: 2.75vw;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 10%;
+	height: 100%;
+	opacity: 0.80;
+}
+#numeric_picture {
+	width: 100%;
+	height: 100%;
+}
+#numeric {
+	position: fixed;
+	margin-left: 0.5%;
+	margin-top: 8.5%;
+	width: 9%;
+	height: 4.75%;
+	opacity: 1;
+}
+#numetric_div{
+	position: absolute;
+	background: #E1F2F9;
+	background-color: #00E171;
+	border: 4px solid #00729A;
+	border-radius: 10px 10px 10px 10px;
+	top: 0;
+	filter: alpha(top=0);
+	left: 150%;
+	width: 115%;
+	height: 5%;
+}
+#numeric_x {
+	background: #E1F2F9;
+	border-right: 4px solid #00729A;
+	border-radius: 10px 0px 0px 10px;
+	width: 75%;
+	height: 100%;
+}
+#math {
+	position: fixed;
+	margin-left: 0.5%;
+	margin-top: 18.5%;
+	width: 9%;
+	height: 4.75%;
+	opacity: 1;
+}
+#math_x {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 15px 0px 0px 0px;
+	top: 7%;
+	left: 150%;
+	width: 50%;
+	height: 4%;
+}
+#math_y {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 15px 0px 0px;
+	top: 7%;
+	left: 202.5%;
+	width: 50%;
+	height: 4%;
+}
+#math_math {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 0px 0px;
+	top: 11%;
+	left: 150%;
+	width: 102.5%;
+	height: 7%;
+}
+#math_z {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 15px 15px;
+	top: 18%;
+	left: 150%;
+	width: 102.5%;
+	height: 3.25%;
+}
+#logic {
+	position: fixed;
+	margin-left: 0.5%;
+	margin-top: 23.25%;
+	width: 9%;
+	height: 4.75%;
+	opacity: 1;
+}
+#logic_x {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 15px 0px 0px 0px;
+	top: 7%;
+	left: 150%;
+	width: 50%;
+	height: 4%;
+}
+#logic_y {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 15px 0px 0px;
+	top: 7%;
+	left: 202.5%;
+	width: 50%;
+	height: 4%;
+}
+#logic_true {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 0px 0px;
+	top: 11%;
+	left: 150%;
+	width: 50%;
+	height: 7%;
+}
+#logic_false {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 0px 0px;
+	top: 11%;
+	left: 202.5%;
+	width: 50%;
+	height: 7%;
+}
+#logic_zt {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 0px 15px;
+	top: 18%;
+	left: 150%;
+	width: 50%;
+	height: 3.25%;
+}#logic_zf {
+	position: absolute;
+	background: #E1F2F9;
+	border: 4px solid #00729A;
+	border-radius: 0px 0px 15px 0px;
+	top: 18%;
+	left: 202.5%;
+	width: 50%;
+	height: 3.25%;
+}
+#desktop {
+	position: fixed;
+	top: -5px;
+	left: 10%;
+	width: 90%;
+	height: 100%;
+}
+.grid-gradient {
+	background: 
+	linear-gradient(#00729A, transparent 1px),
+    linear-gradient(90deg, #00729A, transparent 1px);
+	background-size: 20px 20px;
+	background-position: center center;
+	border: 5px solid #00729A;
+}

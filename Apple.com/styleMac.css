@@ -1,0 +1,469 @@
+body{
+	background: #ffffff;
+	color: #000000; 
+	margin: 0;
+	font-family: Helvetica;
+	src: url(Fonts/HelveticaNeue-Light.ttf);
+	font-size: 12px;
+}
+
+
+#header{
+	background: #41484e;
+	opacity: 0.8;
+	text-align: center;
+	line-height: center;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	width:100%;
+	height:40px;
+}	
+
+
+#navigation {
+	background: #f7f7f7;
+	text-align: center;
+	line-height: center;
+	width: 100%; 
+	height: 120px;
+	font-family: Helvetica;
+}
+
+
+#macbook{
+	width: 75%; 
+	height: 100%;
+} 
+#macbooklink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	color: #333333;
+	font-size: 250%;
+	float: right;
+}
+
+
+#macbookairlink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	float: left;
+	color: #333333;
+	font-size: 250%;
+	padding: 35px;
+} 
+#macbookair{
+	width: 75%; 
+	height: 100%;
+	margin-left: 25%;
+} 
+
+
+#macbookprolink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	color: #333333;
+	float: right;
+	font-size: 250%;
+} 
+#macbookpro{
+	width: 75%; 
+	height: 100%;
+} 
+
+
+#imaclink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	float: left;
+	color: #333333;
+	font-size: 250%;
+	padding: 35px;
+} 
+#imac{
+	width: 75%; 
+	height: 100%;
+	margin-left: 25%;
+} 
+
+
+#macprolink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	color: #333333;
+	float: right;
+	font-size: 250%;
+	margin-left: 75%;
+} 
+#macpro{
+	width: 75%; 
+	height: 100%;
+} 
+
+
+#macminilink{
+	width: 25%; 
+	height: 24.33%;
+	font-family: Helvetica;
+	text-align: center;
+	float: left;
+	color: #333333;
+	font-size: 250%;
+	padding: 35px;
+} 
+#macmini{
+	width: 75%; 
+	height: 100%;
+	margin-left: 25%;
+} 
+
+
+#OSX{
+	background-image: url(Mac/OSX.jpg);
+	width: 100%; 
+	height: 100%;
+	font-family: Helvetica;
+	color: ffffff;
+	text-align: center;
+	font-size: 300%;
+} 
+
+
+#Home{
+	width: 4,75%;
+	height: 95%;	
+}
+
+
+#macbookb{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbook1{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbook2{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbook3{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbook4{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbook5{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbook6{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#macbookairb{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbookair1{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbookair2{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookair3{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookair4{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookair5{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookair6{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#macbookprob{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbookpro1{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+}
+#macbookpro2{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookpro3{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookpro4{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookpro5{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macbookpro6{
+	width: 75%;
+	height: 82.5%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#imacb{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+}
+#imac1{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+}
+#imac2{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#imac3{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#imac4{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#imac5{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#imac6{
+	width: 75%;
+	height: 95%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#macprob{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+}
+#macpro1{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+}
+#macpro2{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macpro3{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macpro4{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macpro5{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macpro6{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#macminib{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+}
+#macmini1{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+}
+#macmini2{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macmini3{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macmini4{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macmini5{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#macmini6{
+	width: 75%;
+	height: 84%;
+	position:absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+#link{
+	width: 87px;
+	height: 57px;
+}
+#link1{
+	width: 68px;
+	height: 57px;
+}
+A:link { 
+	text-decoration: none;
+	color: #333333;
+} 
+A:visited{ 
+	color: #333333;
+} 
+A:active{
+	color: #333333;
+}
+A:hover{
+	color: #828282;
+}
+#linksite{
+	color: #0088cc;
+}
+#linksite:hover{
+	color: #0088cc;
+	text-decoration: underline;
+}
+#linkosx{
+	color: #ffffff;
+}
+#linkosx:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#clear {
+	clear:both;
+}
